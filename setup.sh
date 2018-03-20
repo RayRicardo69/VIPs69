@@ -4,7 +4,7 @@ clear
 echo "Update System"
 apt-get update
 echo "Installing Python And Pip"
-apt-get install -y python-pip python3-pip python3.6
+apt-get install -y python-pip python3-pip python3
 sleep 3s
 echo "SetUp System For All Requirements"
 pip3 install proxybroker
